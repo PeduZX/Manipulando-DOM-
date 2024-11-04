@@ -1,0 +1,59 @@
+/* EX 1
+#container{
+    display: grid;
+    grid-template-rows: 20vw;
+    grid-template-columns: 20vw 20vw 20vw;
+    gap: 20px;
+}
+#primeira{
+background-color: blue;
+}
+#segunda{
+background-color: purple;
+}
+#terceira{
+background-color: orange;
+} */
+
+/* EX 2
+#botao{
+    height: 20vw;
+   width: 20vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 38.9vw;
+   margin-top: 15vw;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* EX 3*/
+
+/* #frase {
+    display: none; 
+} */
+
+/* EX 4*/
+/* h3{
+    text-align: center;
+}
+button{
+    margin-left: 45vw;
+} */
+
+
+ /* Ex 5 */
+ body {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ font-family: Arial, sans-serif;
+ font-size: 24px;
+  }  
+ /* Ex 6  */
+ 
