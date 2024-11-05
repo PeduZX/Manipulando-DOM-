@@ -1,5 +1,5 @@
-/* EX 1
-#container{
+/* EX 1 */
+/* #container{
     display: grid;
     grid-template-rows: 20vw;
     grid-template-columns: 20vw 20vw 20vw;
@@ -13,24 +13,35 @@ background-color: purple;
 }
 #terceira{
 background-color: orange;
-} */
+}
 
-/* EX 2
-#botao{
+/* EX 2 */
+/* #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#botao {
     height: 20vw;
-   width: 20vw;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-left: 38.9vw;
-   margin-top: 15vw;
+    width: 20vw;
+}
+#reset{
+    margin: 10px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 h3{
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}  */ 
 /* EX 3*/
 
 /* #frase {
@@ -47,13 +58,13 @@ button{
 
 
  /* Ex 5 */
- body {
+ /* body {
  display: flex;
  align-items: center;
  justify-content: center;
  height: 100vh;
  font-family: Arial, sans-serif;
  font-size: 24px;
-  }  
+  }   */
  /* Ex 6  */
  

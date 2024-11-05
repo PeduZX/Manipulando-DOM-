@@ -1,39 +1,45 @@
-//EX 1
 // let um = document.getElementById('primeira');
 // let dois = document.getElementById('segunda');
-
+// let tres = document.getElementById('terceira');
 
 // um.addEventListener('click', function() {
-//     let div = document.getElementById('primeira');
-//     if (div.style.backgroundColor === 'red') {
-//         div.style.backgroundColor = 'black';
+//     if (um.style.backgroundColor === 'red') {
+//         um.style.backgroundColor = 'black';
 //     } else {
-//         div.style.backgroundColor = 'red';
+//         um.style.backgroundColor = 'red';
 //     }
 // });
 
 // dois.addEventListener('click', function() {
-//     let div = document.getElementById('segunda');
-//     if (div.style.backgroundColor === 'grey') {
-//         div.style.backgroundColor = 'pink';
+//     if (dois.style.backgroundColor === 'grey') {
+//         dois.style.backgroundColor = 'pink';
 //     } else {
-//         div.style.backgroundColor = 'grey';
+//         dois.style.backgroundColor = 'grey';
 //     }
 // });
+
+// tres.addEventListener('click', function() {
+//     if (tres.style.backgroundColor === 'green') {
+//         tres.style.backgroundColor = 'brown';
+//     } else {
+//         tres.style.backgroundColor = 'green';
+//     }
+// });
+
 
 //EX 2
 
 // let botao = document.getElementById('botao');
 // let h3 = document.getElementById('h3');
 // let reset = document.getElementById('reset');
-// let i = 0;
+// let i = 1;
 
 // botao.addEventListener('click', function() {
 //     h3.innerText = `Você clicou no botão ${i++} vezes`;
 // });
 
 // reset.addEventListener('click', function() {
-//     i = 0;
+//     i = 1;
 //     h3.innerText = `Você clicou no botão 0 vezes`;
 // });
 
