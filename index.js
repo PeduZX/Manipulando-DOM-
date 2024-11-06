@@ -1,44 +1,43 @@
-// let um = document.getElementById('primeira');
-// let dois = document.getElementById('segunda');
-// let tres = document.getElementById('terceira');
+// let um = document.getElementById('quadrado1');
+// let dois = document.getElementById('quadrado2');
+// let tres = document.getElementById('quadrado3');
 
 // um.addEventListener('click', function() {
-//     if (um.style.backgroundColor === 'red') {
-//         um.style.backgroundColor = 'black';
+//     if (um.style.backgroundColor === 'brown') {
+//         um.style.backgroundColor = 'blue';
 //     } else {
 //         um.style.backgroundColor = 'red';
 //     }
 // });
 
 // dois.addEventListener('click', function() {
-//     if (dois.style.backgroundColor === 'grey') {
-//         dois.style.backgroundColor = 'pink';
+//     if (dois.style.backgroundColor === 'green') {
+//         dois.style.backgroundColor = 'yellow';
 //     } else {
-//         dois.style.backgroundColor = 'grey';
+//         dois.style.backgroundColor = 'black';
 //     }
 // });
 
 // tres.addEventListener('click', function() {
-//     if (tres.style.backgroundColor === 'green') {
-//         tres.style.backgroundColor = 'brown';
+//     if (tres.style.backgroundColor === 'pink') {
+//         tres.style.backgroundColor = 'orange';
 //     } else {
-//         tres.style.backgroundColor = 'green';
+//         tres.style.backgroundColor = 'purple';
 //     }
 // });
-
 
 //EX 2
 
 // let botao = document.getElementById('botao');
 // let h3 = document.getElementById('h3');
-// let reset = document.getElementById('reset');
+// let zerar = document.getElementById('zerar');
 // let i = 1;
 
 // botao.addEventListener('click', function() {
 //     h3.innerText = `Você clicou no botão ${i++} vezes`;
 // });
 
-// reset.addEventListener('click', function() {
+// zerar.addEventListener('click', function() {
 //     i = 1;
 //     h3.innerText = `Você clicou no botão 0 vezes`;
 // });
@@ -54,7 +53,7 @@
 //         botao.innerText = 'Ocultar';
 //     } else {
 //         frase.style.display = 'none';
-//         botao.innerText = 'Mostrar';
+//         botao.innerText = 'ver';
 //     }
 // });
 
@@ -63,37 +62,45 @@
 
 //EX 4
 // let botao = document.getElementById('botao');
-// let mensagem = document.getElementById('mensagem');
+// let fraseInicial = document.getElementById('fraseInicial');
 
 //     botao.addEventListener('click', function() {
-//         let escreva = prompt("Digite uma nova mensagem:");
-//         mensagem.innerText = escreva;
+//         let escreva = prompt("mude a frase");
+//         fraseInicial.innerText = escreva;
 //     });
 
 
 //Ex 5
 //     document.addEventListener("keydown", (event) => {
-//         let mensagem = document.getElementById("mensagem");
-//         mensagem.innerText = `Você pressionou: ${event.key}`;
+//         let pressione = document.getElementById("pressione");
+//         pressione.innerText = `Você clicou no: ${event.key}`;
 // });
     
-//Ex 6
-// let votar = document.getElementById('votar');
+// Ex 6
+let votar = document.getElementById('votar');
+let alan = document.getElementById('alan');
+let borre = document.getElementById('borre');
 
-// votar.addEventListener('click', function() {
-//     votar.style.display = 'none';
-//     let voto = prompt("Qual seu voto (Cr7 ou Messi)?");
-//     if (voto === 'Cr7') {
-//         prompt('Você tem certeza?');
-//         alert('Parabens, voce votou no CR7');
+alan.style.display = 'none';
+borre.style.display = 'none';
+
+votar.addEventListener('click', function() {
+    votar.style.display = 'none';
+    let voto = prompt("Qual seu voto (Alan patrick ou Borré)?");
+    if (voto === 'Alan patrick') {
+        prompt('Você tem certeza?');
+        alert('Parabens, voce votou no Alan patrick');
+        alan.style.display = 'block';
         
-//     } else if (voto === 'messi') {
-//         prompt('Você tem certeza?');
-//         alert('Parabens, voce votou no messi');
-//     } else {
-//         alert('Voto NULO')
-//     }
-// });
+        
+    } else if (voto === 'Borré') {
+        prompt('Você tem certeza?');
+        alert('Parabens, voce votou no Borré');
+        borre.style.display = 'block';
+    } else {
+        alert('Voto NULO')
+    }
+});
 
 
 // Desafio
@@ -103,10 +110,10 @@
 // let arrayI = [];
 
 // adicionar.addEventListener('click', function() {
-// let add = prompt('deseja adicionar item a lista?');
+// let add = prompt('adicionar um item na lista? (sim ou nao)');
 
 //     if (add === 'sim') {
-//         let item = prompt('qual item deseja adicionar?');
+//         let item = prompt('qual item ?');
 //         arrayI.push(item);
 //         alert('item adicionado com sucesso');
 //         lista.innerText = 'Esses são os itens presentes na lista:' + arrayI;
