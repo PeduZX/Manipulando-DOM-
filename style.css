@@ -1,39 +1,70 @@
 /* EX 1 */
- /* #container{
+/* #container{
     display: grid;
     grid-template-rows: 20vw;
     grid-template-columns: 20vw 20vw 20vw;
     gap: 20px;
 }
-#quadrado1{
-background-color: rgb(208, 255, 0);
+#primeira{
+background-color: blue;
 }
-#quadrado2{
-background-color: rgb(87, 29, 29);
+#segunda{
+background-color: purple;
 }
-#quadrado3{
-background-color: rgb(155, 103, 125);
-} */
+#terceira{
+background-color: orange;
+}
 
 /* EX 2 */
+/* #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#botao {
+    height: 20vw;
+    width: 20vw;
+}
+#reset{
+    margin: 10px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  */ 
+/* EX 3*/
 
-/* #botao {
-    height: 10vw;
-    width: 10vw;
-} */
-/* EX 3 */
-
- /* #frase {
+/* #frase {
     display: none; 
 } */
 
 /* EX 4*/
-
-
+/* h3{
+    text-align: center;
+}
+button{
+    margin-left: 45vw;
+} */
 
 
  /* Ex 5 */
- 
+ /* body {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ font-family: Arial, sans-serif;
+ font-size: 24px;
+  }   */
  /* Ex 6  */
  
